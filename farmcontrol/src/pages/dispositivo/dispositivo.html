@@ -1,0 +1,30 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Agregar dispositivos</ion-title>
+  </ion-navbar>
+<h1 Text-center> Tipo de dispositivos </h1>
+</ion-header>
+
+<ion-content padding>
+    <ion-list no-lines> 
+        <ion-item>
+          <ion-icon name="md-desktop"item-start></ion-icon>
+          Computadora
+        </ion-item>
+          <ion-item>
+              <ion-icon name="md-phone-portrait" item-start></ion-icon>
+              Celular
+            </ion-item>
+            <ion-item>
+              <ion-label></ion-label>
+              <ion-input stacked type="text" placeholder="Nombre del dispositivo"></ion-input>
+            </ion-item>
+      </ion-list>
+      <div>
+          <button ion-button color="danger" float-right (click)="nav()">Cancelar</button>
+          <button ion-button color="secondary" float-right (click)="nav()">Agregar</button>
+
+      </div>
+
+</ion-content>

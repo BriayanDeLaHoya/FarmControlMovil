@@ -1,0 +1,35 @@
+.ios, .md{
+    page-home {
+        .bg {
+            background-image: url(https://userscontent2.emaze.com/images/61d24219-801d-4f6e-bd6e-ff83d92306a3/5f1d1bd9e7f20a1bf0e3af2f92e5eabd.jpg);
+            height: 300px;
+            background-size: cover;
+            filter: blur(5px);
+            background-position: center center;
+        }
+        .main-cnt{
+            width: 100%;
+            height: 70px;
+        }
+        .dp{
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            z-index: 10;
+            margin-top: -70px;
+            position: relative;
+            left: 50%;
+            margin-right:-50%;
+            transform: translate(-50%, -50%);
+            box-shadow: -6px 15px 81px 3px rgba(0,0,0,0.75);
+             
+        }
+        ion-list ion-item{
+            color:black;
+            background-color: #ecf0f1;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+}
+}

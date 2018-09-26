@@ -1,0 +1,7 @@
+{
+  "name": "farmcontrol",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
